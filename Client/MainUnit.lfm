@@ -1,0 +1,34 @@
+object ClientSideForm: TClientSideForm
+  Left = 1000
+  Height = 40
+  Top = 141
+  Width = 318
+  ActiveControl = HostIPEdit
+  BorderStyle = bsToolWindow
+  Caption = 'Client'
+  ClientHeight = 40
+  ClientWidth = 318
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.6.0.4'
+  Visible = False
+  object HostIPEdit: TEdit
+    Left = 96
+    Height = 23
+    Top = 8
+    Width = 216
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+    TextHint = 'Host IP'
+  end
+  object StatusButton: TButton
+    Left = 8
+    Height = 25
+    Top = 8
+    Width = 75
+    Caption = 'Turn ON'
+    OnClick = StatusButtonClick
+    TabOrder = 1
+  end
+end
