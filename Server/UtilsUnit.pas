@@ -7,7 +7,7 @@ unit UtilsUnit;
 interface
 
 uses
-  Classes, SysUtils, jwaWinUser, IDSync, IDContext;
+  Classes, SysUtils, jwaWinUser, IDContext;
 
 type
  stringArray = array of string;

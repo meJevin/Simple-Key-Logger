@@ -2,13 +2,13 @@
 <CONFIG>
   <ProjectSession>
     <PathDelim Value="\"/>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <BuildModes Active="Default"/>
-    <Units Count="18">
+    <Units Count="19">
       <Unit0>
         <Filename Value="Client.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
+        <EditorIndex Value="2"/>
         <CursorPos Y="20"/>
         <UsageCount Value="185"/>
         <Loaded Value="True"/>
@@ -20,9 +20,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="154"/>
-        <CursorPos X="5" Y="183"/>
-        <FoldState Value=" T7OKL T3iM042l"/>
+        <TopLine Value="357"/>
+        <CursorPos X="30" Y="187"/>
+        <FoldState Value=" T7OKL T3iM04011{"/>
         <UsageCount Value="185"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -144,8 +144,17 @@
         <CursorPos Y="564"/>
         <UsageCount Value="10"/>
       </Unit17>
+      <Unit18>
+        <Filename Value="E:\Lazarus\components\Indy10\System\IdStack.pas"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="955"/>
+        <CursorPos Y="971"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit18>
     </Units>
-    <JumpHistory Count="3" HistoryIndex="2">
+    <JumpHistory Count="6" HistoryIndex="5">
       <Position1>
         <Filename Value="MainUnit.pas"/>
         <Caret Line="208" Column="97" TopLine="190"/>
@@ -158,7 +167,23 @@
         <Filename Value="MainUnit.pas"/>
         <Caret Line="264" Column="29" TopLine="231"/>
       </Position3>
+      <Position4>
+        <Filename Value="MainUnit.pas"/>
+        <Caret Line="183" Column="5" TopLine="153"/>
+      </Position4>
+      <Position5>
+        <Filename Value="MainUnit.pas"/>
+        <Caret Line="85" Column="62" TopLine="76"/>
+      </Position5>
+      <Position6>
+        <Filename Value="MainUnit.pas"/>
+        <Caret Line="187" Column="30" TopLine="357"/>
+      </Position6>
     </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
   </ProjectSession>
   <Debugging>
     <Watches Count="1">
